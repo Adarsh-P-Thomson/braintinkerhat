@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Logo from './Logo';
 
 export default function Footer() {
@@ -15,9 +16,9 @@ export default function Footer() {
               Stop passively watching. Ignite your curiosity and become an independent thinker through our Socratic AI tutor. A new era of learning awaits.
             </p>
             <div className="flex gap-4 text-slate-400">
-              <a href="#" className="hover:text-indigo-600 transition-colors"><Twitter className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-indigo-600 transition-colors"><Github className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-indigo-600 transition-colors"><Linkedin className="w-5 h-5" /></a>
+              <a href="#" className="hover:text-indigo-600 transition-colors"><FaTwitter className="w-5 h-5" /></a>
+              <a href="#" className="hover:text-indigo-600 transition-colors"><FaGithub className="w-5 h-5" /></a>
+              <a href="#" className="hover:text-indigo-600 transition-colors"><FaLinkedin className="w-5 h-5" /></a>
             </div>
           </div>
           

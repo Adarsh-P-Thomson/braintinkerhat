@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Logo from '@/components/Logo';
-import { ArrowRight, Github } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 
 export default function Register() {
   return (
@@ -111,7 +112,7 @@ export default function Register() {
                   className="inline-flex w-full justify-center rounded-lg border border-slate-300 bg-white py-2 px-4 text-sm font-medium text-slate-500 shadow-sm hover:bg-slate-50"
                 >
                   <span className="sr-only">Sign up with GitHub</span>
-                  <Github className="h-5 w-5" />
+                  <FaGithub className="h-5 w-5" />
                 </a>
               </div>
             </div>
